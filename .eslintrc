@@ -1,0 +1,15 @@
+{
+  "extends": "airbnb",
+  "env": {
+    "node": true
+  },
+  "rules": {
+    "no-var": 2,
+    "comma-dangle": [2, "always-multiline"],
+    "max-len": [2, 80, 4, {"ignoreUrls": true}],
+    "no-mixed-spaces-and-tabs": [2, "smart-tabs"],
+    "arrow-body-style": [0, "as-needed"],
+    "no-console": 0,
+    "global-require": 0
+  }
+}
